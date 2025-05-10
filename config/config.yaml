@@ -1,0 +1,24 @@
+# Sample metadata
+samples:
+  - ID: "GSM7102945"
+
+# Signac parameters
+signac:
+  genome: "hg38"
+  min_cells: 10
+  min_features: 200
+
+# Sample metadata
+  samples:
+    - sample1
+    - sample2
+
+# Signac parameters
+  signac:
+    genome: "hg38"
+    bin_size: 5000
+
+# Paths
+  paths:
+    base_dir: "/kyukon/data/gent/shared/002/gvo00224/TOBI_shared/24_TOBI_MscThesis_DeconvATAC/datasets/"
+    r_libs: "/kyukon/data/gent/shared/002/gvo00224/TOBI_shared/24_TOBI_MscThesis_DeconvATAC/packages"
